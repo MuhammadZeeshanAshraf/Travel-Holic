@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/white"
+		tools:context=".Activities.EditAlbumActivity">
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/_100sdp"
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/topbar"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:padding="16dp">
+
+					<ImageView
+						android:id="@+id/iv_back"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_arrow_back"
+						app:tint="@color/colorPrimaryDark" />
+
+					<Space
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="0.8" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:fontFamily="@font/calibri"
+						android:gravity="center"
+						android:text="Add Travel Albums"
+						android:textColor="@color/colorPrimaryDark"
+						android:textSize="@dimen/_16sdp"
+						android:textStyle="bold" />
+
+					<Space
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_20sdp"
+					android:layout_marginEnd="@dimen/_20sdp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="24dp"
+						android:layout_height="26dp"
+						android:layout_gravity="center"
+						android:src="@drawable/add_teacher" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:layout_marginStart="@dimen/_5sdp"
+						android:fontFamily="@font/calibri"
+						android:text="Add Travel Albums"
+						android:textColor="@color/black"
+						android:textSize="@dimen/_16ssp"
+						android:textStyle="bold" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_20sdp"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:layout_marginEnd="@dimen/_20sdp"
+					android:layout_marginBottom="@dimen/_20sdp"
+					android:orientation="vertical">
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="start"
+						android:text="Pictures"
+						android:textColor="@color/colorPrimary"
+						android:textSize="18sp" />
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="vertical">
+						<androidx.recyclerview.widget.RecyclerView
+							android:id="@+id/imageList"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content" />
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_20sdp"
+					android:layout_marginTop="@dimen/_20sdp"
+					android:layout_marginEnd="@dimen/_20sdp"
+					android:layout_marginBottom="@dimen/_10sdp"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:fontFamily="@font/gotham"
+						android:text="Title"
+						android:textColor="@color/colorPrimary"
+						android:textSize="15sp" />
+
+					<EditText
+						android:id="@+id/title"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:backgroundTint="@color/black"
+						android:hint="Album Title"
+						android:inputType="textPersonName"
+						android:lines="1"
+						android:maxLength="20"
+						android:maxLines="1"
+						android:paddingBottom="@dimen/_20sdp"
+						android:textColor="@color/black" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_20sdp"
+					android:layout_marginTop="@dimen/_1sdp"
+					android:layout_marginEnd="@dimen/_20sdp"
+					android:layout_marginBottom="@dimen/_10sdp"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:fontFamily="@font/gotham"
+						android:text="Select Category"
+						android:textColor="@color/colorPrimary"
+						android:textSize="15sp" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:background="@drawable/item_bg"
+						android:padding="@dimen/_10sdp">
+
+						<com.jaredrummler.materialspinner.MaterialSpinner
+							android:id="@+id/CatSpinner"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content" />
+					</LinearLayout>
+
+
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="@dimen/_20sdp"
+					android:layout_marginEnd="@dimen/_20sdp"
+					android:layout_marginBottom="@dimen/_20sdp"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:fontFamily="@font/gotham"
+						android:text="Description"
+						android:textColor="@color/colorPrimary"
+						android:textSize="15sp" />
+
+					<EditText
+						android:id="@+id/description"
+						android:layout_width="match_parent"
+						android:layout_height="250dp"
+						android:layout_marginTop="10dp"
+						android:background="@drawable/item_bg"
+						android:gravity="start"
+						android:hint="Write album description..."
+						android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+						android:maxLength="200"
+						android:padding="10dp"
+						android:textColor="@color/black" />
+				</LinearLayout>
+
+				<RelativeLayout
+					android:id="@+id/Publish"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginBottom="@dimen/_35sdp"
+					android:background="@drawable/bg_round_corners"
+					android:scaleY="0.9">
+
+					<TextView
+						android:layout_width="@dimen/_190sdp"
+						android:layout_height="@dimen/_40sdp"
+						android:background="?android:attr/selectableItemBackground"
+						android:gravity="center"
+						android:text="Publish"
+						android:textAllCaps="true"
+						android:textColor="@color/colorWhite"
+						android:textSize="@dimen/_14sdp" />
+				</RelativeLayout>
+			</LinearLayout>
+		</ScrollView>
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<com.github.ybq.android.spinkit.SpinKitView
+				android:id="@+id/LoadingBar"
+				style="@style/SpinKitView.Large.Wave"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				app:SpinKit_Color="@color/colorPrimary" />
+		</FrameLayout>
+	</RelativeLayout>
+</layout>

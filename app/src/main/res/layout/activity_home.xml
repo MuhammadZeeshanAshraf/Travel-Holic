@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	tools:context=".Activities.HomeActivity">
+
+	<com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+		android:id="@+id/home_navigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_margin="@dimen/_2sdp"
+		android:background="@drawable/rounded_rect_white"
+		android:elevation="8dp"
+		android:padding="16dp"
+		app:bnc_mode="spread">
+
+		<com.gauravk.bubblenavigation.BubbleToggleView
+			android:id="@+id/l_item_dash"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:bt_active="true"
+			app:bt_colorActive="@color/red_active"
+			app:bt_colorInactive="@color/red_inactive"
+			app:bt_icon="@drawable/ic_home"
+			app:bt_shape="@drawable/rounded_rect"
+			app:bt_shapeColor="@color/red_bg_light"
+			app:bt_title="Home" />
+
+		<com.gauravk.bubblenavigation.BubbleToggleView
+			android:id="@+id/l_item_map"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:bt_colorActive="@color/orange_active"
+			app:bt_colorInactive="@color/orange_inactive"
+			app:bt_icon="@drawable/ic_baseline_location_on"
+			app:bt_shape="@drawable/rounded_rect"
+			app:bt_shapeColor="@color/blue_bg_light"
+			app:bt_title="Map" />
+
+		<com.gauravk.bubblenavigation.BubbleToggleView
+			android:id="@+id/l_item_wallet"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:bt_colorActive="@color/blue_active"
+			app:bt_colorInactive="@color/blue_inactive"
+			app:bt_icon="@drawable/ic_album"
+			app:bt_shape="@drawable/rounded_rect"
+			app:bt_shapeColor="@color/blue_grey_bg_light"
+			app:bt_title="Album" />
+
+		<com.gauravk.bubblenavigation.BubbleToggleView
+			android:id="@+id/l_item_account"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:bt_colorActive="@color/green_active"
+			app:bt_colorInactive="@color/green_inactive"
+			app:bt_icon="@drawable/ic_account"
+			app:bt_shape="@drawable/rounded_rect"
+			app:bt_shapeColor="@color/green_bg_light"
+			app:bt_title="Profile" />
+
+	</com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+
+	<FrameLayout
+		android:id="@+id/home_view_pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/home_navigation" />
+
+</RelativeLayout>

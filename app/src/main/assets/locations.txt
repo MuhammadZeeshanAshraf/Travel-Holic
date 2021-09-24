@@ -1,0 +1,802 @@
+{
+		"Nasirabad": {
+			"Category": "Valley",
+			"Description": "Nasirabad is located in Gilgit-Baltistan and bordered to the south by the Hunza River. Nasirabad was known as Hayul Dass during the Rono age. It was later known as Manishmal, a Hindi word for a fertile place with great prosperity",
+			"ID": "Nasirabad",
+			"Lan": "36.2641",
+			"Lon": "74.5258",
+			"Rate": 3,
+			"Title": "Nasirabad",
+			"Uri": ""
+		},
+		"Aliabad": {
+			"Category": "Valley",
+			"Description": "Aliabad is known as the commercial and one of the biggest villages in Hunza. The town is located in a relatively wide section of the Hunza Valley, in the northeastern corner of the Karakoram range, between two forks of the Hunza River.",
+			"ID": "Aliabad",
+			"Lan": "36.3082",
+			"Lon": "74.6195",
+			"Rate": 3,
+			"Title": "Aliabad",
+			"Uri": ""
+		},
+		"Karimabad ": {
+			"Category": "Valley",
+			"Description": "formerly known as Baltit, is the capital of Hunza District, in the Gilgit-Baltistan province of Pakistan. The Guardian ranked it as one of the five Best Tourist Sites in Pakistan",
+			"ID": "Karimabad ",
+			"Lan": "36.3256",
+			"Lon": "74.6698",
+			"Rate": 3,
+			"Title": "Karimabad ",
+			"Uri": ""
+		},
+		"Karun Kuh": {
+			"Category": "Mountain",
+			"Description": "Karun Kuh (Urdu: قارون کوہ‎) is a mountain locate in the area of Shimshal Valley, a valley in the Karakoram range of Asia. Located in the area of Shimshal, Gilgit–Baltistan, Pakistan, it has a summit elevation of 6,977 m above sea level.",
+			"ID": "Karun Kuh",
+			"Lan": "36.6117",
+			"Lon": "75.0808",
+			"Rate": 3,
+			"Title": "Karun Kuh",
+			"Uri": ""
+		},
+		"Kampire Dior": {
+			"Category": "Mountain",
+			"Description": "Kampire Dior (7 155m/23 474ft a.s.l.) is a mountain in the Karakoram in Pakistan. The prominence is 1 406m/4 613ft.",
+			"ID": "Kampire Dior",
+			"Lan": "36.6250",
+			"Lon": "74.3175",
+			"Rate": 3,
+			"Title": "Kampire Dior",
+			"Uri": ""
+		},
+		"Sost": {
+			"Category": "Valley",
+			"Description": "Sost or Sust is a village in Gojal, Upper Hunza, Gilgit–Baltistan, Pakistan. It is the last town inside Pakistan on the Karakoram Highway before the Chinese border. It is elevated 2,800 meters above sea level",
+			"ID": "Sost",
+			"Lan": "36.65554090500532",
+			"Lon": "74.84504825491209",
+			"Rate": 3,
+			"Title": "Sost",
+			"Uri": ""
+		},
+		"Altit": {
+			"Category": "Valley",
+			"Description": "(Urdu: قلعہ التیت‎) is an ancient fort at Altit town in the Hunza valley. It was originally home to the hereditary rulers of the Hunza state who carried the title Mir,",
+			"ID": "Altit",
+			"Lan": "36.3256",
+			"Lon": "74.6698",
+			"Rate": 3,
+			"Title": "Altit",
+			"Uri": ""
+		},
+		"Ahmedabad": {
+			"Category": "Valley",
+			"Description": "Ahmedabad, is a small village in the Hunza valley with a population of approximately 1500. Old Name of Ahmedabad is ThaniDas. Idea village of Pakistan for its self-development. Ahmedabad is well known for Production of electricity.",
+			"ID": "Ahmedabad",
+			"Lan": "36.3052",
+			"Lon": "74.7330",
+			"Rate": 3,
+			"Title": "Ahmedabad",
+			"Uri": ""
+		},
+		"Husseni (Suspension Bridge)": {
+			"Category": "Hiking Tracks",
+			"Description": "A Bridge known for its dangerous look, Hussaini is a relatively safe bridge and has become one of the most sought after tourist attraction, with hikers testing their nerves as they carefully work their way across",
+			"ID": "Husseni (Suspension Bridge)",
+			"Lan": "36.3092",
+			"Lon": "74.9330",
+			"Rate": 3,
+			"Title": "Husseni (Suspension Bridge)",
+			"Uri": ""
+		},
+		"Khunjarab Top": {
+			"Category": "National Park",
+			"Description": "Khunjerab Pass is a 4,693-meter-high mountain pass in the Karakoram Mountains, in a strategic position on the northern border of Pakistan and on the southwest border of China. Mutsjliga Pass is a 5,314-meter-high mountain pass at 36.97374°N 75.2973°E near Khunjerab Pass.",
+			"ID": "Khunjarab Top",
+			"Lan": "36.5100",
+			"Lon": "75.2540",
+			"Rate": 3,
+			"Title": "Khunjarab Top",
+			"Uri": ""
+		},
+		"Passu (Passu Cones)": {
+			"Category": "Mountain",
+			"Description": "Passu Cones are mountain range near Village Passu in Hunza. They are called as Passu cones due to their cone shape.",
+			"ID": "Passu (Passu Cones)",
+			"Lan": "36.23011",
+			"Lon": "74.51682",
+			"Rate": 3,
+			"Title": "Passu (Passu Cones)",
+			"Uri": ""
+		},
+		"Duiker": {
+			"Category": "Valley",
+			"Description": "Duikar or Duiker is a settlement in Hunza Valley, which is also known for the roof of Hunza. It lies above Altit village, 700 Meters higher than the valley floor. It is well-known as a viewpoint and is often referred to as Eagle's Nest. Central Hunza, Nagar, Rakaposhi, lady Finger and many other eye-catching places can be seen from Duiker.",
+			"ID": "Duiker",
+			"Lan": "36.1932",
+			"Lon": "74.4011",
+			"Rate": 3,
+			"Title": "Duiker",
+			"Uri": ""
+		},
+		"Baltit Fort": {
+			"Category": "Fort",
+			"Description": "Baltit Fort is a fort in the Hunza valley, near the town of Karimabad, in the Gilgit-Baltistan region of northern Pakistan. Founded in the 8th century CE, it has been on the UNESCO World Heritage Tentative list since 2004",
+			"ID": "Baltit Fort",
+			"Lan": "36.3256",
+			"Lon": "74.6698",
+			"Rate": 3,
+			"Title": "Baltit Fort",
+			"Uri": ""
+		},
+		"Altit Fort": {
+			"Category": "Fort",
+			"Description": "Altit Fort is an ancient fort at Altit town in the Hunza valley in Gilgit Baltistan, Pakistan. It was originally home to the hereditary rulers of the Hunza state. Altit Fort and in particular the Shikari tower is around 1100 years old, which makes it the oldest monument in the Gilgit–Baltistan Pakistan.",
+			"ID": "Altit Fort",
+			"Lan": "36.3173",
+			"Lon": "74.6812",
+			"Rate": 3,
+			"Title": "Altit Fort",
+			"Uri": ""
+		},
+		"Attabad Lake": {
+			"Category": "Lake",
+			"Description": "Attabad Lake is a lake located in the Gojal region of Hunza Valley in Gilgit−Baltistan, Pakistan. It was created in January 2010 as the result of a major landslide in Attabad. The Length of this lake is around 21 Kilometers.",
+			"ID": "Attabad Lake",
+			"Lan": "36.3190",
+			"Lon": "74.8653",
+			"Rate": 3,
+			"Title": "Attabad Lake",
+			"Uri": ""
+		},
+		"Borit Lake": {
+			"Category": "Lake",
+			"Description": "Borith Lake is a lake in Gojal, Hunza Valley in Gilgit–Baltistan, Pakistan. The altitude of Borith is roughly 2,600 metres above sea level. It lies approximately 2 km to the north of Gulmit, a saline body of water occupying a small hollow at an elevation of 2,500 meters",
+			"ID": "Borit Lake",
+			"Lan": "74.8625",
+			"Lon": "74.51451",
+			"Rate": 3,
+			"Title": "Borit Lake",
+			"Uri": ""
+		},
+		"Rupal Base Camp Astore": {
+			"Category": "Hiking Tracks",
+			"Description": "This trek taking us through lush green potato fields of Rupal valley (Astore) to the base camp within 5-6 hours walk, where one can see the massive peak of Nanga Parbat from a close distance.",
+			"ID": "Rupal Base Camp Astore",
+			"Lan": "35.222645920731736",
+			"Lon": "74.70368421932129",
+			"Rate": 3,
+			"Title": "Rupal Base Camp Astore",
+			"Uri": ""
+		},
+		"Rupal Valley": {
+			"Category": "Valley",
+			"Description": "Rupal valley is located in the Astore District of Gilgit Baltistan. Rupal valley is a beautiful and breathtaking village surrounded by huge glaciers and towering mountains which are covered by the forest of juniper and other species of plants that presents a pleasing and wonderful view to the visitors and trekkers. The Rupal valley is on the south side of Nanga Parbat, is accessed through the Astore valley, which leaves the KKH at Juglot 60km south of Gilgit. Rupal valley is famous for Hiking Tracks to the mountains’ Rupal Face, one of the highest mountain faces in the world.",
+			"ID": "Rupal Valley",
+			"Lan": "35.222645920731736",
+			"Lon": "74.70368421932129",
+			"Rate": 3,
+			"Title": "Rupal Valley",
+			"Uri": ""
+		},
+		"Trashing Valley Astore": {
+			"Category": "Valley",
+			"Description": "Trashing Valley Astore is a village with around 200 inhabitants and a subdivision of the Astore District of Gilgit−Baltistan, Pakistan. It is considered to be the gateway to Nanga Parbat, the ninth-highest mountain on Earth.",
+			"ID": "Trashing Valley Astore",
+			"Lan": "35.2465368875626",
+			"Lon": "74.72557780065506",
+			"Rate": 3,
+			"Title": "Trashing Valley Astore",
+			"Uri": ""
+		},
+		"Nanga Parbat": {
+			"Category": "Mountain",
+			"Description": "Nanga Parbat, translates 'naked-mountain', also known locally as Diamer, is the ninth-highest mountain in the world at 8,126 metres above sea level. Located in the Diamer District of Gilgit-Baltistan, Pakistan, Nanga Parbat is the western anchor of the Himalayas.",
+			"ID": "Nanga Parbat",
+			"Lan": "35.2375",
+			"Lon": "74.5891",
+			"Rate": 3,
+			"Title": "Nanga Parbat",
+			"Uri": ""
+		},
+		"Allah Wali Jheel": {
+			"Category": "Lake",
+			"Description": "Allah wali jheel is one of the ancient tourism spots in Astore valley. Allah wali jheel is located at the end of the Perishing valley in Gotamsar town, 45 minutes’ drive from the Astore. The name of Allah written by the river is famous because the river passes through a huge passage surround by lush green fields, this passage is in a zigzag manner and the name of Allah is obvious if it looked from some height. The greenfield is bounded by high altitude mountains. The broad greenfield is attractive for sports activities.",
+			"ID": "Allah Wali Jheel",
+			"Lan": "35.3843",
+			"Lon": "75.0140",
+			"Rate": 3,
+			"Title": "Allah Wali Jheel",
+			"Uri": ""
+		},
+		"Rama lake": {
+			"Category": "Lake",
+			"Description": "Rama lake is a high mountain lake at an altitude of 3.507m  above the sea level. Just half an hour trek to Rama lake witness a wonderful view of the Nanga Parbat which is surrounded by forest. Facing the southern tail of the Nanga Parbat, the Rama meadows serve as a peaceful spot in the wildland.",
+			"ID": "Rama lake",
+			"Lan": "35.3304",
+			"Lon": "74.7856",
+			"Rate": 3,
+			"Title": "Rama lake",
+			"Uri": ""
+		},
+		"Dar Lay Lake": {
+			"Category": "Lake",
+			"Description": "Dar Lay Lake is situated in Rattu valley. Dar Lay Lake is located at a distance of 89 km from KKH Thalichi and 49km from Astore. The lake is formed due to natural disasters in early 2005. This lake has been surrounded by thick forest mountains. The mountain peaks are under the snow during the month of July and August. One can enjoy the scenic view of Nanga Parbat from Dar Lay Lake. This lake has the potential for trout fishing and angling.",
+			"ID": "Dar Lay Lake",
+			"Lan": "35.356957982761124",
+			"Lon": "74.86115492285913",
+			"Rate": 3,
+			"Title": "Dar Lay Lake",
+			"Uri": ""
+		},
+		"Gutumsar Valley": {
+			"Category": "Valley",
+			"Description": "Gutumsar Valley is located at a distance of 18 km from Astore valley. Gutumsar valley is a very beautiful place with tall pine trees surrounded by snow-capped mountains, and an ideal campsite. Famous Urdong Meadows are present in Gutumsar Valley. Banak La and Harpo pass two famous passes that are present in Gutumsar Valley.",
+			"ID": "Gutumsar Valley",
+			"Lan": "35.40069851043159",
+			"Lon": "75.01653832084114",
+			"Rate": 3,
+			"Title": "Gutumsar Valley",
+			"Uri": ""
+		},
+		"Chilam Valley": {
+			"Category": "Valley",
+			"Description": "Chilam village is the highest altitude village in Astore, It is 53km away from the Astore valley, which links to Deosai, Buzil Pass, Minimerg, and Gultari. The village is bound in winters due to snow harsh weather but in summers it is the most beautiful scenery with lush green mountains.",
+			"ID": "Chilam Valley",
+			"Lan": "35.036060275169085",
+			"Lon": "75.10160629188728",
+			"Rate": 3,
+			"Title": "Chilam Valley",
+			"Uri": ""
+		},
+		"Minimerg": {
+			"Category": "Valley",
+			"Description": "Minimerg is located at an altitude of  14,00 feet. It is a hidden valley of natural beauty, purity, and simplicity. The beautiful valley is decorated with the grassy slopes, thick pine forests, fertile fields, and blue freshwater streams.Minimerg is also used as a winter camp for Himalayan brown bears.",
+			"ID": "Minimerg",
+			"Lan": "35.222645920731736",
+			"Lon": "74.70368421932129",
+			"Rate": 3,
+			"Title": "Minimerg",
+			"Uri": ""
+		},
+		"Burzail pass": {
+			"Category": "Hiking Tracks",
+			"Description": "It is an ancient pass and caravan route between Srinagar in Kashmir and Gilgit. The pass lies close to the line of control separating India and Pakistan, which has since closed the Burzil. Burzil Pass is on way to Minimerg from Chilim. Burzil pass can be accessed in the summers and top of the pass is wide and covered with alpine grass vegetation. There is also a lake called Burzil Lake.",
+			"ID": "Burzail pass",
+			"Lan": "34.9039",
+			"Lon": "75.0936",
+			"Rate": 3,
+			"Title": "Burzail pass",
+			"Uri": ""
+		},
+		"Mazino Pass Trek": {
+			"Category": "Hiking Tracks",
+			"Description": "Mazino Pass is located at a distance of 42 KM from Astore headquarters. Mazino Pass trek is one of the most popular Hiking Tracks and famous among the foreign trekkers. It is used as the base camp to scale Nanga Parbat.",
+			"ID": "Mazino Pass Trek",
+			"Lan": "35.233716770822866",
+			"Lon": "74.59219111759595",
+			"Rate": 3,
+			"Title": "Mazino Pass Trek",
+			"Uri": ""
+		},
+		"Harpo Pass": {
+			"Category": "Hiking Tracks",
+			"Description": "The Harpo pass is located at an altitude of 3,500 meters. The distance from Gutumsar perishing Astore to Skardu is 30 km, the shortest link between Astore and Skardu via Harpo pass. The glaciers and high mountains covered with snow are all around the pass.",
+			"ID": "Harpo Pass",
+			"Lan": "35.42841807745444",
+			"Lon": "75.09880572531381",
+			"Rate": 3,
+			"Title": "Harpo Pass",
+			"Uri": ""
+		},
+		"Bubin pass": {
+			"Category": "Hiking Tracks",
+			"Description": "Bubin pass is situated in Gudai Valley, located at a distance of 30 km from Astore headquarters. Bubin pass provides another link between Astore and Skardu and also famous for its natural beauty with lush green area, small freshwater streams, wonderful meadows with snow-capped peaks and grazing cattle’s will take your breath away. ",
+			"ID": "Bubin pass",
+			"Lan": "35.23314863992552",
+			"Lon": "75.06852363859086",
+			"Rate": 3,
+			"Title": "Bubin pass",
+			"Uri": ""
+		},
+		"Trek to Nanga Parbat basecamp": {
+			"Category": "Hiking Tracks",
+			"Description": "Nanga Parbat is located in the Diamar district of Pakistan. Nanga Parbat Base camp trek is one of the most famous Hiking Tracks in the world. Nanga Parbat is the ninth highest mountain in the world and the second-highest in Pakistan. Nanga Parbat is not a single peak but it is a long mountain range series consists of 20 km long. Its south face is known as Rupal Face while the North face is known as Raikot Face.",
+			"ID": "Trek to Nanga Parbat basecamp",
+			"Lan": "35.23597",
+			"Lon": "74.344646",
+			"Rate": 3,
+			"Title": "Trek to Nanga Parbat basecamp",
+			"Uri": ""
+		},
+		"Kharphocho Fort": {
+			"Category": "Fort",
+			"Description": "Skardu Fort or Kharpocho (Balti: کھر فچو; Urdu: قلعہ سکردو‎) means The king of Forts is a fort in Skardu city in Gilgit-Baltistan region of Pakistan . The fort was built by the king Ali Sher Khan Anchan in the end of the sixteenth century.[2] General Zorawar Singh of the Dogra Rajput clan working under Maharaja Gulab Singh realized the importance of the fort's location in the town and so he occupied the fort. It was part of his many military campaigns to annex the areas of Baltistan to the princely state of Jammu and Kashmir.",
+			"ID": "Kharphocho Fort",
+			"Lan": "35.304341269073966",
+			"Lon": "75.63950428465644",
+			"Rate": 3,
+			"Title": "Kharphocho Fort",
+			"Uri": ""
+		},
+		"Khaplu": {
+			"Category": "Valley",
+			"Description": "Khaplu (Urdu and Balti:خپلو), also spelt Khapalu,[1] is a city that serves as the administrative capital of the Ghanche District of Gilgit-Baltistan, in northern Pakistan.[2] Lying 103 km (64 mi) east of the city of Skardu, it was the second-largest kingdom in old Baltistan of the Yabgo dynasty. It guarded the trade route to Ladakh along the Shyok River east of its confluence with the Indus.",
+			"ID": "Khaplu",
+			"Lan": "35.16128772063133",
+			"Lon": "76.33153609991449",
+			"Rate": 3,
+			"Title": "Khaplu",
+			"Uri": ""
+		},
+		"Kachura Lakes": {
+			"Category": "Lake",
+			"Description": "The Kachura Lakes (Urdu: کچورہ جھیل‎) are three lakes in the Skardu District of Gilgit-Baltistan, northern Pakistan. The lakes, at 2,500 metres (8,200 ft) in elevation, are Upper Kachura Lake and Lower Kachura Lake.[1] The latter is also known as Shangrila Lake and is within a tourist resort named Shangrila Resort outside the town of Skardu another lake called Zambakha Lake is situated in the small village Zambakha adjacent to Shangri-la",
+			"ID": "Kachura Lakes",
+			"Lan": "35.44701863564243",
+			"Lon": "75.44527173010705",
+			"Rate": 3,
+			"Title": "Kachura Lakes",
+			"Uri": ""
+		},
+		"Shangrila Lake": {
+			"Category": "Lake",
+			"Description": "Lower Kachura Lake (Urdu: زیریں کچورا جھیل‎), also known as Shangrila Lake(Urdu: شنگریلا جھیل‎) is located in Kachura village in Skardu city at a height of 2,500 metres (8,200 ft). The lake is also known as Shangrila lake after a resort built on its bank in 1983.",
+			"ID": "Shangrila Lake",
+			"Lan": "35.4268",
+			"Lon": "75.4552",
+			"Rate": 3,
+			"Title": "Shangrila Lake",
+			"Uri": ""
+		},
+		"Satpara Lake": {
+			"Category": "Lake",
+			"Description": "Satpara sar Lake (Urdu: سدپارہ سر جھیل‎) is a natural lake near Skardu, Gilgit-Baltistan, Pakistan, which supplies water to Skardu Valley. It is fed by the Satpara Stream. Satpara Lake is situated at an elevation of 2,636 meters (8,650 ft) above sea level and is spread over an area of 2.5 km².The completion of Satpara Dam downstream of the lake has enlarged the size of Satpara Lake.",
+			"ID": "Satpara Lake",
+			"Lan": "35.2294",
+			"Lon": "75.6295",
+			"Rate": 3,
+			"Title": "Satpara Lake",
+			"Uri": ""
+		},
+		"Shigar Fort": {
+			"Category": "Fort",
+			"Description": "The Shigar Fort (Balti and Urdu: فونگ کھر‎) means The Fort on Rock[1] is an old fort of Baltistan and Pakistan located in the town of Shigar. It was built in the 17th century by the Raja of Amacha Dynasty of Shigar. The fort has been restored by Aga Khan Cultural Service Pakistan (AKCSP-P), the Pakistan arm of the Aga Khan Historic Cities Programme. After restoration, the Fort was converted to a museum and luxury hotel managed by Serena Hotels.",
+			"ID": "Shigar Fort",
+			"Lan": "35.4229",
+			"Lon": "75.7423",
+			"Rate": 3,
+			"Title": "Shigar Fort",
+			"Uri": ""
+		},
+		"Shigar valley": {
+			"Category": "Valley",
+			"Description": "The Shigar Valley (Urdu: وادی شگر‎) is a valley in Gilgit Baltistan in northern Pakistan that is watered by the Shigar River, and centred on the town of Shigar. The valley stretches about 170 km from Skardu to Askole and is the gateway to the high mountains of the Karakoram. The town of Shigar is the largest settlement in valley.",
+			"ID": "Shigar valley",
+			"Lan": "35.2532",
+			"Lon": "75.4359",
+			"Rate": 3,
+			"Title": "Shigar valley",
+			"Uri": ""
+		},
+		"Deosai National Park": {
+			"Category": "National Park",
+			"Description": "The Deosai National Park is a high-altitude alpine Plain (plateau) and National Park located in between Skardu, Astore and Kharmang district in Gilgit Baltistan. Most of the area falls in Skardu district. Deosai Plains are situated at an average elevation of 4,114 metres (13,497 ft) above sea level and considered as the second highest plateaus in the world",
+			"ID": "Deosai National Park",
+			"Lan": "34.9705",
+			"Lon": "75.4718",
+			"Rate": 3,
+			"Title": "Deosai National Park",
+			"Uri": ""
+		},
+		"Shausar Lake": {
+			"Category": "Lake",
+			"Description": "Sheosar Lake (Urdu: شیوسر جھیل) is an alpine lake situated in Deosai National Park, Gilgit-Baltistan, Pakistan. It is located at the height of 4,142 metres (13,589 ft). Between the months of November to May the area of Deosai is snow bound. During spring, the surrounding area is covered with wide variety of flowers and butterflies.[citation needed] Most visitors come to the lake are in summer between June to early September.",
+			"ID": "Shausar Lake",
+			"Lan": "34.9925",
+			"Lon": "75.2333",
+			"Rate": 3,
+			"Title": "Shausar Lake",
+			"Uri": ""
+		},
+		"Katpana Desert": {
+			"Category": "Desert",
+			"Description": "The Cold Desert, also known as the Katpana Desert or Biama Nakpo,[citation needed] is a high-altitude desert located near Skardu, Gilgit−Baltistan, Pakistan.[1] The desert contains large sand dunes that are sometimes covered in snow during winter. Situated at an elevation of 2,226 metres (7,303 ft) above sea level, the Cold Desert is one of the highest deserts in the world.",
+			"ID": "Katpana Desert",
+			"Lan": "35.3158",
+			"Lon": "75.5996",
+			"Rate": 3,
+			"Title": "Katpana Desert",
+			"Uri": ""
+		},
+		"Basho Valley": {
+			"Category": "Valley",
+			"Description": "Basho valley Skardu is located in Roundu Divison of Skardu District, Gilgit Baltistan. The Basho Valley, with its extreme beauty, majestic snow-capped mountains, and primitive charm, is one of the favorite places to visit in Skardu, Northern area of Pakistan.",
+			"ID": "Basho Valley",
+			"Lan": "35.25",
+			"Lon": "75.15",
+			"Rate": 3,
+			"Title": "Basho Valley",
+			"Uri": ""
+		},
+		"Manthokha Waterfal": {
+			"Category": "Waterfall",
+			"Description": "Manthokha Waterfall (Balti:منٹھق چھوپھیار) is a waterfall located in Kharmang Valley, Skardu, Gilgit-Baltistan, the extreme northern region of Pakistan.[2] This waterfall is approx 180 feet high from ground, and located almost 80 kilometres (50 mi) away from downtown Skardu.",
+			"ID": "Manthokha Waterfal",
+			"Lan": "35.0663",
+			"Lon": "75.9954",
+			"Rate": 3,
+			"Title": "Manthokha Waterfal",
+			"Uri": ""
+		},
+		"Lowari Pass": {
+			"Category": "Mountain",
+			"Description": "Lowari Pass (Urdu: درہ لواری‎), or Lowari Top, (el. 10,230 ft.) is a high mountain pass that connects Chitral with Dir in Khyber-Pakhtunkhwa, Pakistan. Lowari Top is a relatively low pass, by far the lowest pass to enter Chitral, the rest all being 12,000 to 15,000 feet.",
+			"ID": "Lowari Pass",
+			"Lan": "35.3497",
+			"Lon": "71.8023",
+			"Rate": 3,
+			"Title": "Lowari Pass",
+			"Uri": ""
+		},
+		"Chitral valley": {
+			"Category": "Valley",
+			"Description": "Chitral is a town situated on the Chitral River in northern Khyber Pakhtunkhwa, Pakistan. It serves as the capital of the Chitral District and likewise served as the capital of the Chitral princely state that encompassed the region until its direct incorporation into West Pakistan in 1969.",
+			"ID": "Chitral valley",
+			"Lan": "35.7699",
+			"Lon": "71.7741",
+			"Rate": 3,
+			"Title": "Chitral valley",
+			"Uri": ""
+		},
+		"Chitral Fort": {
+			"Category": "Fort",
+			"Description": "The Chitral Fort is a fortification in Chitral town, Khyber Pakhtunkhwa, Pakistan. The fort is situated on the banks of the Chitral River. The fort has a commanding position on the river and is believed to have been built in 1774 during the reign of Mohtaram Shah Katur II and restored in 1911 by His Highness Sir Shuja ul-Mulk.",
+			"ID": "Chitral Fort",
+			"Lan": "35.8553",
+			"Lon": "71.7909",
+			"Rate": 3,
+			"Title": "Chitral Fort",
+			"Uri": ""
+		},
+		"Bumburet": {
+			"Category": "Valley",
+			"Description": "Bumburet (Kalasha: Mumuret, Urdu: وادی پمپوریت‎) is the largest valley of Kalasha Desh in Chitral District, Khyber Pakhtunkhwa the province of Pakistan.The Bumburet valley joins the Rumbur valley at 1,640 metres (5,380 ft), and then joins the Kunar Valley at the village of Ayun 1,400 metres (4,600 ft), some 20 kilometres (12 mi) south (downstream) of Chitral.",
+			"ID": "Bumburet",
+			"Lan": "35.6983",
+			"Lon": "71.6914",
+			"Rate": 3,
+			"Title": "Bumburet",
+			"Uri": ""
+		},
+		"Kalasha Valleys": {
+			"Category": "Valley",
+			"Description": "The Kalasha Valleys (Kalasha-mondr: Kaĺaśa Desh; Urdu: وادی کیلاش‎) are valleys in Chitral District in northern Pakistan. The valleys are surrounded by the Hindu Kush mountain range. The inhabitants of the valley are the Kalash people, who have a unique culture, language and follow a form of ancient Hinduism.",
+			"ID": "Kalasha Valleys",
+			"Lan": "35.7006",
+			"Lon": "71.6914",
+			"Rate": 3,
+			"Title": "Kalasha Valleys",
+			"Uri": ""
+		},
+		"Chitral Gol National Park": {
+			"Category": "National Park",
+			"Description": "Chitral Gol National Park (Urdu: چترال گول نیشنل پارک‎) is one of the National Parks of Pakistan. It is located in Chitral District in Khyber-Pakhtunkhwa province of Pakistan beside the Chitral River, at a distance of two hours drive from Chitral town. The park is also known as Chitral National Park.",
+			"ID": "Chitral Gol National Park",
+			"Lan": "35.8948",
+			"Lon": "71.6916",
+			"Rate": 3,
+			"Title": "Chitral Gol National Park",
+			"Uri": ""
+		},
+		"Nagar Fort": {
+			"Category": "Fort",
+			"Description": "When Chitral was a state Nagar Fort had a significant importance being on the route of invading armies from Afghanistan. It was built on the orders of the then Mehtar of Chitral, HH Sir Shuja ul Mulk, originally constructed as a winter resort for the Mehtar, since it is in an area that is relatively warmer than other parts of Chitral being situated at an altitude of 1209meters above sea level.",
+			"ID": "Nagar Fort",
+			"Lan": "35.4830",
+			"Lon": "71.7429",
+			"Rate": 3,
+			"Title": "Nagar Fort",
+			"Uri": ""
+		},
+		"Garam Chashma": {
+			"Category": "Valley",
+			"Description": "Garam Chashma (literally: Hot Spring) is one of the many branch valleys of Chitral District, situated in the extreme north-west of Pakistan.[1] It is one of the highest human settlements in the Hindukush ranges with an altitude of almost 2550 meters (8389 feet). The place is known for Hot spring, which is one of the tourists attraction sites. It is also famous for its trout fish.",
+			"ID": "Garam Chashma",
+			"Lan": "35.9975",
+			"Lon": "71.5635",
+			"Rate": 3,
+			"Title": "Garam Chashma",
+			"Uri": ""
+		},
+		"Shandur Pass": {
+			"Category": "Valley",
+			"Description": "Shandur Pass (Urdu: شندور‎) is a pass located in District Ghizer of Gilgit-Baltistan. It is often called 'Roof of the World'.The people of Chitral have also claimed the ownership of Shandur but in international maps and the water direction makes it integral part of Gilgit-Baltistan and the people of upper Ghizer are true owner's of this beautiful landscape.",
+			"ID": "Shandur Pass",
+			"Lan": "36.0744",
+			"Lon": "72.5181",
+			"Rate": 3,
+			"Title": "Shandur Pass",
+			"Uri": ""
+		},
+		"Broghil Valley": {
+			"Category": "Valley",
+			"Description": "Broghil Valley (Urdu: بروغل‎) is a valley and national park located in the upper northern reaches of the Chitral District, Pakhtunkhwa, Pakistan, close to the Afghan-Pakistan border. Broghil Valley is 250 km (160 mi) from the main town of Chitral and is the northernmost valley within the Chitral district",
+			"ID": "Broghil Valley",
+			"Lan": "36.1681",
+			"Lon": "73.3981",
+			"Rate": 3,
+			"Title": "Broghil Valley",
+			"Uri": ""
+		},
+		"Birir": {
+			"Category": "Valley",
+			"Description": "Birir (Kalash Language: Biriu[1] Urdu: وادی بریر‎) is one of the three Kalash Valleys in Chitral District, Khyber Pakhtunkhwa province, Pakistan.",
+			"ID": "Birir",
+			"Lan": "35.390",
+			"Lon": "71.4337",
+			"Rate": 3,
+			"Title": "Birir",
+			"Uri": ""
+		},
+		"Mastuj fort": {
+			"Category": "Fort",
+			"Description": "The Mastuj Fort is a fortification in Mastuj city, Khyber Pakhtunkhwa, Pakistan. The fort is situated on a plateau at confluence of the Yarkhun River and the Mastuj River near Shandur Pass.  The fort is believed to be built by Katoor Dynasty in 18th century in around 1780 with couple of rebuilds in 1830 and 1920s.",
+			"ID": "Mastuj fort",
+			"Lan": "35.9030",
+			"Lon": "71.8039",
+			"Rate": 3,
+			"Title": "Mastuj fort",
+			"Uri": ""
+		},
+		"Rumbur": {
+			"Category": "Valley",
+			"Description": "Rumbur (Kalasha: Rukmu) is one of the three Kalasha valleys situated in Chitral District, Khyber Pakhtunkhwa, Pakistan.",
+			"ID": "Rumbur",
+			"Lan": "35.7002",
+			"Lon": "71.6926",
+			"Rate": 3,
+			"Title": "Rumbur",
+			"Uri": ""
+		},
+		"Tirich Mir": {
+			"Category": "Mountain",
+			"Description": "Tirich Mir (also spelled Terich Mir, Terichmir and Turch Mir) is the highest mountain of the Hindu Kush range, and the highest mountain in the world outside of the Himalayas–Karakoram range. It is located in the Chitral District of Khyber Pakhtunkhwa, Pakistan.",
+			"ID": "Tirich Mir",
+			"Lan": "36.2550",
+			"Lon": "71.8408",
+			"Rate": 3,
+			"Title": "Tirich Mir",
+			"Uri": ""
+		},
+		"Rakaposhi View Point": {
+			"Category": "Mountain",
+			"Description": "Rakaposhi (Urdu: راکاپوشی / رَکی پُوشِہ‎) is a mountain in the Karakoram mountain range in the Gilgit-Baltistan territory of Pakistan. Its front side is situated in the Bagrote valley, Nagar valley and danyor, approximately 100 km (62 mi) north of the city of Gilgit. Rakaposhi is also known as Dumani (Mother of Mist or Mother of Clouds). It is ranked 27th highest in the world.",
+			"ID": "Rakaposhi View Point",
+			"Lan": "36.240476950990086",
+			"Lon": "74.48775861534409",
+			"Rate": 3,
+			"Title": "Rakaposhi View Point",
+			"Uri": ""
+		},
+		"Ghulmat Nagar": {
+			"Category": "Valley",
+			"Description": "Nagar (Urdu: نگر‎; Burushaski: نگر‎) is a former princely state and one of the ten districts of Gilgit Baltistan, Pakistan. The valley is along the Karakoram Highway on the way north from Gilgit main city. The valley is home to many high mountain peaks including Rakaposhi (7788m), Diran Peak (7265m), Golden Peak and Rush Peak.",
+			"ID": "Ghulmat Nagar",
+			"Lan": "36.2409",
+			"Lon": "74.4804",
+			"Rate": 3,
+			"Title": "Ghulmat Nagar",
+			"Uri": ""
+		},
+		"Gappa Valley": {
+			"Category": "Valley",
+			"Description": "Gappa Valley is a beautiful tourist spot in the Nagar District, Gilgit-Baltistan, Pakistan. Gappa valley always with its natural jungles, fountain, grasslands, and mesmerizing view of Rakaposhi, attracts the nature-loving tourist. The best route to visit Gappa Valley is a way through a Chahlat Bala. From the main Karakoram Highway, It takes around one and half hours to reach Gappa valley via Chalt",
+			"ID": "Gappa Valley",
+			"Lan": "36.25790810777316",
+			"Lon": "74.27932529821956",
+			"Rate": 3,
+			"Title": "Gappa Valley",
+			"Uri": ""
+		},
+		"Minapin": {
+			"Category": "Valley",
+			"Description": "Minapin is located on the left side of the Hunza River, can be reached by some one hour hiking from Pisan (2445m), and located on the Karakoram Highway. A guest house at Minapin is available. The best period for this route is May to September each year.",
+			"ID": "Minapin",
+			"Lan": "36.44410795617176",
+			"Lon": "74.5188057155089",
+			"Rate": 3,
+			"Title": "Minapin",
+			"Uri": ""
+		},
+		"Nagar": {
+			"Category": "Valley",
+			"Description": "Nagar (Urdu: نگر‎; Burushaski: نگر‎) is a former princely state and one of the ten districts of Gilgit Baltistan, Pakistan. The valley is along the Karakoram Highway on the way north from Gilgit main city. The valley is home to many high mountain peaks including Rakaposhi (7788m), Diran Peak (7265m), Golden Peak and Rush Peak.",
+			"ID": "Nagar",
+			"Lan": "36.282736539314506",
+			"Lon": "74.71518508864376",
+			"Rate": 3,
+			"Title": "Nagar",
+			"Uri": ""
+		},
+		"Diran": {
+			"Category": "Mountain",
+			"Description": "Diran (Urdu: دیرن‎) is a mountain in the Karakoram range in Nagar Valley and Bagrot Valley Gilgit-Baltistan, Pakistan. This 7,266-metre (23,839 ft) pyramid shaped mountain lies to the east of Rakaposhi (7,788m).",
+			"ID": "Diran",
+			"Lan": "36.1207",
+			"Lon": "74.6612",
+			"Rate": 3,
+			"Title": "Diran",
+			"Uri": ""
+		},
+		"Rush Lake Nagar": {
+			"Category": "Lake",
+			"Description": "Rush Lake is a high altitude lake located in Nagar Valley, Gilgit-Baltistan, Pakistan near Rush Pari Peak. At 4,694 metres, Rush is one of the highest alpine lakes in the world. It is located about 15 km north of Miar Peak and Spantik, which are in the Nagar Valley.",
+			"ID": "Rush Lake Nagar",
+			"Lan": "36.17461982311259",
+			"Lon": "74.88247494247943",
+			"Rate": 3,
+			"Title": "Rush Lake Nagar",
+			"Uri": ""
+		},
+		"Hopper Valley": {
+			"Category": "Valley",
+			"Description": "The Hopar Valley (Urdu: وادی ہوپر) is a scenic portion of the Nagar Valley in Gilgit-Baltistan, in Pakistan. It is about 10 km away from Nagar Khas, the principal city of the Nagar Valley. Hopar Valley is home of the Spantik and Hopar (Hopper) glaciers",
+			"ID": "Hopper Valley",
+			"Lan": "36.22621980659282",
+			"Lon": "74.75423744699799",
+			"Rate": 3,
+			"Title": "Hopper Valley",
+			"Uri": ""
+		},
+		"Kacheli Lake Nagar": {
+			"Category": "Lake",
+			"Description": "Kacheli Lake is a high altitude lake located in Kachali Meadows in Minapin Valley of Nagar District, Gilgit-Baltistan, Pakistan. Climbing Steeply from the Diran basecamp, It takes about two hours to reach Kacheli lake",
+			"ID": "Kacheli Lake Nagar",
+			"Lan": "36.19836701224612",
+			"Lon": "74.59020365992157",
+			"Rate": 3,
+			"Title": "Kacheli Lake Nagar",
+			"Uri": ""
+		},
+		"Sail ul Malook": {
+			"Category": "Lake",
+			"Description": "First and foremost, in Jheel Saif ul Malook on the list of Places in Naran Kaghan. The world-famous lake in Pakistan. The Lake Saif ul Malook is 9 kilometers long, 50 feet deep, and as high as 3224 on the surface. It is fascinating because of its huge natural beauty. Surrounded by mountains, the lake can enjoy magnificent views, and tourists prefer hiking. In winter, snow-capped mountains and unforgettable glaciers enhance the beauty of the lake.",
+			"ID": "Sail ul Malook",
+			"Lan": "34.8762",
+			"Lon": "73.6934",
+			"Rate": 3,
+			"Title": "Sail ul Malook",
+			"Uri": ""
+		},
+		"Lulusar Lake": {
+			"Category": "Lake",
+			"Description": "Secondly, on Places in Naran Kaghan, it is a magnificent lake surrounded by the Kaghan Valley and the highest peak in the Kaghan Valley, with an impressive panoramic view about 3410 meters above sea level. Lake Lulusar is the most popular tourist attraction in the valley after the summit of Saif ul Malook and Babusar Top.Jeep can reach the clean fresh water of the lake. Jeep is about 48 kilometres away from Naran. Here, you can enjoy the fun of “hiking”, “Trekking”, “fishing”, and “rafting”, “boating“. In other words, it is an ideal picnic spot in the Kagan Valley.",
+			"ID": "Lulusar Lake",
+			"Lan": "35.0022",
+			"Lon": "73.1507",
+			"Rate": 3,
+			"Title": "Lulusar Lake",
+			"Uri": ""
+		},
+		"Siri Paye": {
+			"Category": "Valley",
+			"Description": "Seri Bay is another tourist area, about 6 kilometres from Shogran. It is famous for its lush green meadows and it also has a small Siri Paye lake. This tourist likes to ride horses there. It has become a favourite of Naran tourists. They can visit the green-carpeted garden of Siri Paye, horse riding along the lake and take a deep breath in the fresh and pure air.",
+			"ID": "Siri Paye",
+			"Lan": "34.6166400425539",
+			"Lon": "73.60013016453583",
+			"Rate": 3,
+			"Title": "Siri PayeValley",
+			"Uri": ""
+		},
+		"Babusar Top": {
+			"Category": "Valley",
+			"Description": "Third, we have on the list of Places in Naran Kaghan, is Lalazar. Lalazar is basically a plateau covered with beautiful flowers and pine forests. On the other hand, Babusar Top is about 70 kilometres away from Naran. Among the giants of the Karakorum Mountains, feel the cool breeze from the top of Babusar. One of the best tours when exploring Naran Valley.",
+			"ID": "Babusar Top",
+			"Lan": "35.1462",
+			"Lon": "74.0482",
+			"Rate": 3,
+			"Title": "Babusar Top",
+			"Uri": ""
+		},
+		"Lalazar": {
+			"Category": "Valley",
+			"Description": "Places in Naran Kaghan is incomplete without Lalazar. Lalazar is closely connected to the magnificent Babusar Top and is another perfect picnic place in Naran, with unique, compact views in most of the surrounding area. Because the altitude is about 3123 meters and the altitude is very high, the climate there is very good. The long trees and grass make the scenery more wonderful.",
+			"ID": "Lalazar",
+			"Lan": "33.341897",
+			"Lon": "73.36446",
+			"Rate": 3,
+			"Title": "Lalazar",
+			"Uri": ""
+		},
+		"Balakot": {
+			"Category": "Valley",
+			"Description": "The last but not least point is the Kaghan Valley Gate in Balakot. Another beautiful spot in the Kaghan Valley, the beautiful town on both sides of the Kunhar River at the foot of the thousand mountains. The amazing panoramic views of the town with the ravishing waterfalls make this place, a must-visit area of Kaghan valley.",
+			"ID": "Balakot",
+			"Lan": "34.5482",
+			"Lon": "73.3532",
+			"Rate": 3,
+			"Title": "Balakot",
+			"Uri": ""
+		},
+		"Shogran": {
+			"Category": "Valley",
+			"Description": "Shogran is a hill station situated on a green plateau in the Kaghan Valley, northern Pakistan at a height of 2,362 metres above sea level. It is located in the province of Khyber Pakhtunkhwa. Shogran is located at a distance of 34 kilometres away from Balakot.",
+			"ID": "Shogran",
+			"Lan": "34.6398",
+			"Lon": "73.4607",
+			"Rate": 3,
+			"Title": "Shogran",
+			"Uri": ""
+		},
+		"Naran Valley": {
+			"Category": "Valley",
+			"Description": "Naran is a town and popular tourist destination in upper Kaghan Valley in Mansehra District of Khyber Pakhtunkhwa province of Pakistan. It is located 119 kilometers from Mansehra city at the altitude of 2,409 meters.It is located about 65 kilometers away from Babusar Top.",
+			"ID": "Naran Valley",
+			"Lan": "34.9093",
+			"Lon": "73.6507",
+			"Rate": 3,
+			"Title": "Naran Valley",
+			"Uri": ""
+		},
+		"Kewai waterfalls": {
+			"Category": "Lake",
+			"Description": "Kiwai is a standard picnic level the place guests normally take a cease over on the best way travelling to Shogran or Naran Valley. This place seems busy on account of presence of huge variety of individuals having fun with lovely view of Waterfall whereas having meals and snacks.",
+			"ID": "Kewai waterfalls",
+			"Lan": "34.6309",
+			"Lon": "73.4436",
+			"Rate": 3,
+			"Title": "Kewai waterfalls",
+			"Uri": ""
+		},
+		"Kaghan": {
+			"Category": "Valley",
+			"Description": "The Kaghan Valley is an alpine valley located in the Mansehra District of Khyber Pakhtunkhwa, Pakistan. The valley covers a distance of 155 kilometres across northern Pakistan, rising from its lowest elevation of 650 m to its highest point at the Babusar Pass around 4,170 m",
+			"ID": "Kaghan",
+			"Lan": "34.7794",
+			"Lon": "73.5270",
+			"Rate": 3,
+			"Title": "Kaghan",
+			"Uri": ""
+		},
+		"Ansoo Lake": {
+			"Category": "Lake",
+			"Description": "Ansoo Lake, is a tear-shaped lake located in Kaghan Valley in Mansehra District of Khyber Pakhtunkhwa the province of Pakistan. It is located at an elevation of 4,245 metres above sea level and considered one of the highest lakes of the Himalaya Range.",
+			"ID": "Ansoo Lake",
+			"Lan": "34.8140",
+			"Lon": "73.6766",
+			"Rate": 3,
+			"Title": "Ansoo Lake",
+			"Uri": ""
+		},
+		"Falak-Sar": {
+			"Category": "Mountain",
+			"Description": "Falak Sar is the highest mountain peak in Ushu Valley of Swat, Pakistan at an elevation of 5,957 metres, it is considered the highest peak of the Swat district in the Hindu Kush mountains range, followed by Mankial mountain peak.",
+			"ID": "Falak-Sar",
+			"Lan": "35.6754",
+			"Lon": "72.7769",
+			"Rate": 3,
+			"Title": "Falak-Sar",
+			"Uri": ""
+		},
+		"Dudipatsar Lake": {
+			"Category": "Lake",
+			"Description": "Dudipatsar Lake, also known as Dudipat Lake, is a lake encircled by snow clad peaks in Lulusar-Dudipatsar National Park. The lake lies in the north end of the Kaghan Valley, in the Mansehra District, Khyber Pakhtunkhwa province, in northern Pakistan.",
+			"ID": "Dudipatsar Lake",
+			"Lan": "35.0186",
+			"Lon": "74.0902",
+			"Rate": 3,
+			"Title": "Dudipatsar Lake",
+			"Uri": ""
+		},
+		"Batakundi village": {
+			"Category": "Valley",
+			"Description": "BataKundi is a beautiful small village of Kagan Valley which is located at a distance of about 10 km from Naran. This village is called the heart of Kagan Valley. Bata Kundi is the place from where all the gates lead. At the very top of the same village there is a lush green plain of Lalazar which goes further to Lake Saif al-Muluk. The valley goes to Saran (Saran Maidan) and the same route goes further to Kashmir.",
+			"ID": "Batakundi village",
+			"Lan": "34.9316",
+			"Lon": "73.7743",
+			"Rate": 3,
+			"Title": "",
+			"Uri": "Batakundi village"
+		}
+	}

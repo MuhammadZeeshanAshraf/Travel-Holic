@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	android:background="@color/white_pressed"
+	android:orientation="vertical"
+	tools:context=".Fragment.AlbumFragment">
+
+	<com.facebook.shimmer.ShimmerFrameLayout
+		android:id="@+id/shimmer_view_container_home"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:orientation="vertical"
+		android:visibility="gone"
+		app:shimmer_duration="800"
+		tools:ignore="MissingConstraints">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<include layout="@layout/data_placeholder_layout" />
+
+		</LinearLayout>
+
+	</com.facebook.shimmer.ShimmerFrameLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/white_pressed"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:focusedByDefault="true"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/topbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:padding="16dp">
+
+			<Space
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:fontFamily="@font/calibri"
+				android:gravity="center"
+				android:text="Travel Albums"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="@dimen/_16sdp"
+				android:textStyle="bold" />
+
+			<Space
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1" />
+
+		</LinearLayout>
+
+		<com.mancj.materialsearchbar.MaterialSearchBar
+			style="@style/MaterialSearchBarLight"
+			app:mt_speechMode="false"
+			app:mt_hint="Custom hint"
+			app:mt_hintColor="@color/black"
+			android:layout_marginEnd="@dimen/_10sdp"
+			android:layout_marginStart="@dimen/_10sdp"
+			app:mt_maxSuggestionsCount="5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/searchBar" />
+
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/AlbumList"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:padding="5dp" />
+	</LinearLayout>
+
+	<com.getbase.floatingactionbutton.FloatingActionsMenu
+		android:id="@+id/albumOptions"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		fab:fab_addButtonColorNormal="@color/colorPrimary"
+		fab:fab_addButtonColorPressed="@color/white_pressed"
+		fab:fab_addButtonPlusIconColor="@color/colorWhite"
+		fab:fab_addButtonSize="mini"
+		fab:fab_expandDirection="up"
+		fab:fab_labelStyle="@style/menu_labels_style">
+
+		<com.getbase.floatingactionbutton.FloatingActionButton
+			android:id="@+id/addAlbum"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			fab:fab_colorNormal="@color/colorWhite"
+			fab:fab_colorPressed="@color/white_pressed"
+			fab:fab_icon="@drawable/add_album"
+			fab:fab_size="mini"
+			fab:fab_title="Add Album" />
+
+
+		<com.getbase.floatingactionbutton.FloatingActionButton
+			android:id="@+id/myAlbums"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			fab:fab_colorNormal="@color/colorWhite"
+			fab:fab_colorPressed="@color/white_pressed"
+			fab:fab_icon="@drawable/album"
+			fab:fab_size="mini"
+			fab:fab_title="My Albums" />
+	</com.getbase.floatingactionbutton.FloatingActionsMenu>
+</RelativeLayout>

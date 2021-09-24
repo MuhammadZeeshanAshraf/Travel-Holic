@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/white"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:focusedByDefault="true"
+		android:orientation="vertical"
+		tools:context=".Activities.UserAlbumActivity">
+
+		<LinearLayout
+			android:id="@+id/topbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:padding="16dp">
+
+			<ImageView
+				android:id="@+id/ic_back"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ic_arrow_back"
+				app:tint="@color/colorPrimaryDark" />
+
+			<Space
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="0.8" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:fontFamily="@font/calibri"
+				android:gravity="center"
+				android:text="My Albums"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="@dimen/_16sdp"
+				android:textStyle="bold" />
+
+			<Space
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1" />
+
+		</LinearLayout>
+
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/AlbumList"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:padding="5dp" />
+
+		<LinearLayout
+			android:id="@+id/emptyLayout"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginStart="@dimen/_10sdp"
+			android:layout_marginTop="@dimen/_10sdp"
+			android:layout_marginEnd="@dimen/_10sdp"
+			android:visibility="visible"
+			android:background="@color/colorWhite"
+			android:gravity="center"
+			android:orientation="vertical">
+
+			<com.airbnb.lottie.LottieAnimationView
+				android:id="@+id/animation_view"
+				android:layout_width="@dimen/_250sdp"
+				android:layout_height="@dimen/_250sdp"
+				app:lottie_autoPlay="true"
+				app:lottie_fileName="rooling.json"
+				app:lottie_loop="true" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/_10sdp"
+				android:fontFamily="@font/montserratalternates_regular"
+				android:text="Your Albums are Empty"
+				android:textColor="@color/colorBlack"
+				android:textSize="@dimen/_17sdp" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_20sdp"
+				android:fontFamily="@font/montserratalternates_regular"
+				android:gravity="center"
+				android:text="Looks like you haven't added any album yet"
+				android:textColor="@color/colorGrey"
+				android:textSize="@dimen/_14sdp" />
+
+			<br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+				android:id="@+id/openAddAlbum"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="30dp"
+				android:layout_marginTop="30dp"
+				android:layout_marginEnd="30dp"
+				android:layout_marginBottom="30dp"
+				android:background="@drawable/rounded_corners_yellow"
+				android:text="Add Album"
+				android:textColor="@color/white"
+				app:spinning_bar_color="#FFF"
+				app:spinning_bar_padding="6dp"
+				app:spinning_bar_width="3dp" />
+
+
+		</LinearLayout>
+	</LinearLayout>
+</layout>

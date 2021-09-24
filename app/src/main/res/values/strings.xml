@@ -1,0 +1,45 @@
+<resources>
+	<string name="app_name">Travel Holic</string>
+	<string name="google_maps_key">AIzaSyDSlrNIb24iaPkWlCkvim5SdsEKVqkq0O0</string>
+	<string name="facebook_app_id">2950821315181484</string>
+	<string name="fb_login_protocol_scheme">fb2950821315181484</string>
+
+	<string name="quote">“Only the traveling is good which reveals to me the value of home and enables me to enjoy it better.” – Anthony Robbins</string>
+	<string name="sample">Our creamy Royal cheesecake topped with a delicious film of strawberry glaze and a Belgian chocolate half sphere. 8.75 Inch Diameter Serves 10-14</string>
+
+	<string name="title_onboarding_1">Welcome to Travel Holic App</string>
+	<string name="description_onboarding_1">The Travel Holic is an tourism app which provides the best quality destination at the finger tips of customer within less time.</string>
+
+	<string name="title_onboarding_2">Visit From AnyWhere</string>
+	<string name="description_onboarding_2"> Travel Holic App is providing services in all over Pakistan. </string>
+
+	<string name="title_onboarding_3">Vision and Mission Statement</string>
+	<string name="description_onboarding_3">The idea of business is to motivate more people to tourism.</string>
+
+	<string name="start_text_advice">By continuing on this application you agree to our Terms of Use and Privacy Policy</string>
+	<string name="featured_locations">All Featured Locations</string>
+	<string name="featured_locations_description">All the locations that are featured and have the top demand in town!</string>
+	<string name="please_wait_while_we_are_fetching_the_services">Please wait while we are fetching the services.</string>
+
+
+	<string-array name="category">
+		<item>Valley</item>
+		<item>Lake</item>
+		<item>Waterfall</item>
+		<item>Mountain</item>
+		<item>Fort</item>
+		<item>Desert</item>
+		<item>National Park</item>
+		<item>Hiking Tracks</item>
+	</string-array>
+
+	<string name="start">start</string>
+	<string name="skip">Skip</string>
+	<string name="finish">finish</string>
+	<string name="next">next</string>
+	<string name="back">back</string>
+	<string name="sign_in">Sign In</string>
+	<string name="name">Name</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

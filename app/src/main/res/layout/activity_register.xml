@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/colorPrimaryDark"
+		android:orientation="vertical"
+		tools:context=".Activities.RegisterActivity">
+
+		<RelativeLayout
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/_80sdp">
+
+			<ImageView
+				android:id="@+id/iv_back"
+				android:layout_width="@dimen/_30sdp"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_marginStart="@dimen/_20sdp"
+				android:layout_marginLeft="@dimen/_20sdp"
+				android:src="@drawable/ic_arrow_back"
+				app:tint="@color/colorWhite" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:text="Sign Up"
+				android:textAllCaps="true"
+				android:textColor="@color/colorWhite"
+				android:textSize="@dimen/_14sdp" />
+
+		</RelativeLayout>
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@+id/toolbar"
+			android:background="@drawable/bg_round_top">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:focusedByDefault="true"
+				android:orientation="vertical"
+				android:padding="@dimen/_30sdp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:text="Let's Sign Up"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="@dimen/_20sdp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_5sdp"
+					android:gravity="center"
+					android:text="Welcome back, you’ve been missed!"
+					android:textColor="@color/colorBlackLight"
+					android:textSize="@dimen/_11sdp" />
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_30sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpName"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Username"
+						android:imeOptions="actionNext"
+						android:inputType="text"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpEmail"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Email"
+						android:imeOptions="actionNext"
+						android:inputType="textEmailAddress"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_20sdp"
+					android:layout_marginBottom="@dimen/_20sdp"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="start"
+						android:text="Picture"
+						android:textColor="@color/colorPrimary"
+						android:textSize="18sp" />
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_marginTop="10dp"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="@dimen/_30sdp"
+							android:orientation="vertical">
+
+							<de.hdodenhof.circleimageview.CircleImageView
+								android:id="@+id/PreviewImage"
+								android:layout_width="@dimen/_150sdp"
+								android:layout_height="@dimen/_150sdp"
+								android:layout_gravity="center_horizontal"
+								android:layout_marginTop="20dp"
+								android:src="@drawable/person_picture"
+								app:civ_border_color="@color/black"
+								app:civ_border_width="1dp" />
+
+							<ImageView
+								android:id="@+id/Camera"
+								android:layout_width="@dimen/_30sdp"
+								android:layout_height="@dimen/_30sdp"
+								android:layout_gravity="center_horizontal"
+								android:layout_marginTop="-45dp"
+								android:layout_marginEnd="-65dp"
+								android:background="@drawable/ic_camera" />
+						</LinearLayout>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center"
+							android:layout_marginStart="5dp"
+							android:text="*Preview Of Picture"
+							android:textColor="@color/colorPrimary"
+							android:visibility="visible" />
+					</LinearLayout>
+				</LinearLayout>
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpPhone"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Phone Number"
+						android:imeOptions="actionNext"
+						android:inputType="phone"
+						android:lines="1"
+						android:maxLength="11"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpAddress"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Address"
+						android:imeOptions="actionNext"
+						android:inputType="text"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpProfession"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Profession"
+						android:imeOptions="actionNext"
+						android:inputType="text"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey"
+					app:passwordToggleEnabled="true">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpPassword"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Password"
+						android:imeOptions="actionNext"
+						android:inputType="textPassword"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+				<com.google.android.material.textfield.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_15sdp"
+					android:textColorHint="@color/colorGrey"
+					app:hintTextColor="@color/colorGrey"
+					app:passwordToggleEnabled="true">
+
+					<com.google.android.material.textfield.TextInputEditText
+						android:id="@+id/UserSignUpConfirmPassword"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:backgroundTint="@color/colorVeryLightGrey"
+						android:hint="Confirm Password"
+						android:imeOptions="actionNext"
+						android:inputType="textPassword"
+						android:maxLines="1"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_14sdp" />
+				</com.google.android.material.textfield.TextInputLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/UserSignUp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginTop="@dimen/_35sdp"
+					android:layout_marginBottom="@dimen/_35sdp"
+					android:background="@drawable/bg_round_corners"
+					android:scaleY="0.9">
+
+					<TextView
+						android:layout_width="@dimen/_190sdp"
+						android:layout_height="@dimen/_40sdp"
+						android:background="?android:attr/selectableItemBackground"
+						android:gravity="center"
+						android:text="Sign Up"
+						android:textAllCaps="true"
+						android:textColor="@color/colorWhite"
+						android:textSize="@dimen/_14sdp" />
+
+				</RelativeLayout>
+
+
+				<LinearLayout
+					android:id="@+id/UserSignUpGoToLogin"
+					android:layout_width="wrap_content"
+					android:layout_height="@dimen/_40sdp"
+					android:layout_gravity="center"
+					android:layout_marginBottom="@dimen/_15sdp"
+					android:background="?android:attr/selectableItemBackground"
+					android:gravity="center"
+					android:orientation="horizontal">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="@dimen/_40sdp"
+						android:gravity="center"
+						android:text="Already have an account?"
+						android:textAllCaps="false"
+						android:textColor="@color/colorGrey"
+						android:textSize="@dimen/_12sdp" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="@dimen/_40sdp"
+						android:gravity="center"
+						android:text="Login"
+						android:textAllCaps="false"
+						android:textColor="@color/colorBlackLight"
+						android:textSize="@dimen/_12sdp" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<com.github.ybq.android.spinkit.SpinKitView
+				android:id="@+id/LoadingBar"
+				style="@style/SpinKitView.Large.Wave"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				app:SpinKit_Color="@color/colorPrimary" />
+
+		</FrameLayout>
+
+	</RelativeLayout>
+
+</layout>

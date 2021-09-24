@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Fragment.MapFragment">
+
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<fragment
+			android:id="@+id/map_view"
+			android:name="com.google.android.gms.maps.SupportMapFragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		</fragment>
+
+	</FrameLayout>
+
+	<HorizontalScrollView
+		android:id="@+id/catScroll"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/fz_searchlayout"
+		android:animateLayoutChanges="true"
+		android:scrollbars="none"
+		android:visibility="visible">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipValley"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Valley"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:mcv_backgroundColor="@color/colorPrimary"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipLake"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Lake"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:mcv_backgroundColor="@color/red"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipWaterfall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Waterfall"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:mcv_backgroundColor="@color/orange_active"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipMountain"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Mountain"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:mcv_backgroundColor="@color/yellow_active"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipFort"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Fort"
+				android:visibility="visible"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				app:mcv_backgroundColor="@color/blue_active"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipNationPark"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="National Park"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:mcv_backgroundColor="@color/av_color5"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipHikingTracks"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Hiking Tracks"
+				android:visibility="visible"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				app:mcv_backgroundColor="@color/purple_active"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipDesert"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="Desert"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:mcv_backgroundColor="@color/midnigth_blue"
+				app:mcv_closeColor="@color/midnigth_blue"
+				app:mcv_selectedBackgroundColor="@color/midnigth_blue"
+				app:mcv_textColor="@color/white" />
+
+			<com.robertlevonyan.views.chip.Chip
+				android:id="@+id/chipAll"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/_10sdp"
+				android:text="All Locations"
+				android:visibility="visible"
+				android:textSize="@dimen/_12sdp"
+				android:textStyle="bold"
+				app:mcv_backgroundColor="@color/colorPrimary"
+				app:mcv_closeColor="@color/yellow"
+				app:mcv_selectedBackgroundColor="@color/colorBlue"
+				app:mcv_textColor="@color/white" />
+		</LinearLayout>
+
+
+	</HorizontalScrollView>
+
+
+	<LinearLayout
+		android:id="@+id/fz_searchlayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/_10sdp"
+		android:background="@drawable/receiver_messages_layout"
+		android:elevation="50dp"
+		android:padding="10dp"
+		android:visibility="visible">
+
+		<ImageView
+			android:id="@+id/fz_search"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:src="@drawable/ic_search"
+			app:tint="@color/colorPrimaryDark" />
+
+
+		<EditText
+			android:id="@+id/fz_search_here"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:background="@null"
+			android:inputType="text"
+			android:maxLength="20"
+			android:ems="10"
+			android:hint="Search Here"
+			android:imeOptions="actionSearch"
+			android:maxLines="1" />
+
+	</LinearLayout>
+
+
+	<Button
+		android:id="@+id/addLocation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:visibility="visible"
+		android:layout_centerHorizontal="true"
+		android:layout_margin="@dimen/_50sdp"
+		android:background="@drawable/mainbuttonbg"
+		android:fontFamily="@font/calibri"
+		android:text="Add Location"
+		android:textColor="@color/white"
+		android:textStyle="bold" />
+
+</RelativeLayout>

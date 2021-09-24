@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white_pressed"
+	android:orientation="vertical"
+	tools:context=".Fragment.HomeFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/white"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:focusedByDefault="true"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:id="@+id/topbar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:padding="16dp">
+
+				<Space
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:fontFamily="@font/calibri"
+					android:gravity="center"
+					android:text="Travel Holic"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="@dimen/_16sdp"
+					android:textStyle="bold" />
+
+				<Space
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:paddingLeft="10dp"
+				android:paddingTop="10dp"
+				android:paddingRight="10dp">
+
+				<androidx.cardview.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="12dp"
+					app:cardCornerRadius="10dp">
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="191dp"
+						android:background="@drawable/home_background">
+
+						<TextView
+							android:id="@+id/textView3"
+							style="@style/Widget.AppCompat.TextView.SpinnerItem"
+							android:layout_width="361dp"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="10dp"
+							android:layout_marginLeft="10dp"
+							android:layout_marginTop="45dp"
+							android:fontFamily="serif"
+							android:foregroundGravity="center_vertical|center_horizontal"
+							android:gravity="center_horizontal"
+							android:text="“Take only memories, leave only footprints” "
+							android:textColor="@color/white"
+							android:textSize="27dp"
+							android:textStyle="bold" />
+
+						<TextView
+							android:id="@+id/textView16"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="235dp"
+							android:layout_marginLeft="235dp"
+							android:layout_marginTop="120dp"
+							android:fontFamily="serif"
+							android:text="~ Travelholic"
+							android:textColor="@color/white"
+							android:textSize="15sp"
+							android:textStyle="bold" />
+
+					</RelativeLayout>
+				</androidx.cardview.widget.CardView>
+			</LinearLayout>
+
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:background="@color/banner_background_light">
+
+				<LinearLayout
+					android:id="@+id/featured_background"
+					android:layout_width="120dp"
+					android:layout_height="300dp"
+					android:layout_marginStart="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_marginBottom="10dp"
+					android:background="@color/banner_background_light"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="50dp"
+						android:fontFamily="@font/brandon_grotesque_black"
+						android:lineHeight="24sp"
+						android:text="@string/featured_locations"
+						android:textAllCaps="true"
+						android:textColor="@color/colorAccent"
+						android:textSize="@dimen/_14sdp" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="10dp"
+						android:text="@string/featured_locations_description"
+						android:textSize="@dimen/_10sdp" />
+
+				</LinearLayout>
+
+				<androidx.recyclerview.widget.RecyclerView
+					android:id="@+id/featured_recycler"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_toRightOf="@id/featured_background"
+					android:background="@color/home_background"
+					tools:itemCount="4"
+					tools:listitem="@layout/featured_card_design" />
+
+			</RelativeLayout>
+
+
+		</LinearLayout>
+	</ScrollView>
+
+
+</LinearLayout>

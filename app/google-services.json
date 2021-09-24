@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573243595478",
+    "project_id": "travelholic-ff830",
+    "firebase_url": "https://travelholic-ff830-default-rtdb.firebaseio.com/",
+    "storage_bucket": "travelholic-ff830.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573243595478:android:1c7d72d7b452f46308c777",
+        "android_client_info": {
+          "package_name": "com.ztech.travelholic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573243595478-0em5f1v32ecjmeqe5peguuc2ieipv3s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ztech.travelholic",
+            "certificate_hash": "48c94d8c2d6b2fb7658e3391063eded5acc8c31d"
+          }
+        },
+        {
+          "client_id": "573243595478-o29vvp53o6ff17op6lkbv05pfe4kg8bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8LqEw92zLjHxLLGlTXCxz8mLTTRKsXM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573243595478-o29vvp53o6ff17op6lkbv05pfe4kg8bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

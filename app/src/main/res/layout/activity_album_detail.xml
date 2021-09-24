@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	android:orientation="vertical"
+	tools:context=".Activities.AlbumDetailActivity">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/white">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="vertical">
+
+
+			<LinearLayout
+				android:id="@+id/topbar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:padding="16dp">
+
+				<ImageView
+					android:id="@+id/iv_back"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ic_arrow_back"
+					app:tint="@color/colorPrimaryDark" />
+
+				<Space
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.8" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:fontFamily="@font/calibri"
+					android:gravity="center"
+					android:text="Album Details"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="@dimen/_16sdp"
+					android:textStyle="bold" />
+
+				<Space
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="@dimen/_30sdp">
+
+
+				<androidx.recyclerview.widget.RecyclerView
+					android:id="@+id/imageList"
+					android:layout_gravity="center"
+					android:foregroundGravity="center"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+
+				<ImageView
+					android:id="@+id/Image"
+					android:layout_width="@dimen/_200sdp"
+					android:layout_height="@dimen/_150sdp"
+					android:layout_gravity="center"
+					android:visibility="gone"
+					android:src="@drawable/duikar" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal"
+					android:textAlignment="center"
+					android:visibility="invisible"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:fontFamily="@font/montserratalternates_regular"
+					android:text="Out of Stock"
+					android:textColor="@color/colorBlack"
+					android:textSize="@dimen/_17sdp" />
+
+				<TextView
+					android:id="@+id/tv_Category"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:fontFamily="@font/avenirltstd_roman"
+					android:gravity="center"
+					android:text="Rs 564"
+					android:textColor="@color/colorPrimary"
+					android:textSize="@dimen/_22sdp" />
+
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<TextView
+						android:id="@+id/title"
+						android:layout_width="@dimen/_150sdp"
+						android:layout_height="wrap_content"
+						android:fontFamily="@font/avenirltstd_roman"
+						android:gravity="center"
+						android:text="DZRT Royal"
+						android:textColor="@color/colorBlack"
+						android:textSize="@dimen/_22sdp" />
+
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="@dimen/_10sdp"
+					android:visibility="invisible"
+					android:gravity="center_horizontal"
+					android:orientation="horizontal">
+
+					<RatingBar
+						style="?android:attr/ratingBarStyleSmall"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:isIndicator="true"
+						android:numStars="5"
+						android:rating="4"
+						android:stepSize="0.1" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/_10sdp"
+					android:orientation="vertical">
+
+
+					<com.codesgood.views.JustifiedTextView
+						android:id="@+id/dec"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="@dimen/_10sdp"
+						android:fontFamily="@font/avenirltstd_book"
+						android:gravity="center"
+						android:justificationMode="inter_word"
+						android:paddingBottom="@dimen/_10sdp"
+						android:text="@string/sample"
+						android:textAlignment="center"
+						android:textColor="#1E1E1E"
+						android:textSize="@dimen/_12sdp" />
+				</LinearLayout>
+
+
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/creator"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:text=""
+					android:textColor="@color/colorBlack"
+					android:textSize="@dimen/_13sdp" />
+
+
+			</LinearLayout>
+			<br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+				android:id="@+id/openProfile"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="30dp"
+				android:layout_marginTop="30dp"
+				android:layout_marginEnd="30dp"
+				android:layout_marginBottom="30dp"
+				android:background="@drawable/rounded_corners_yellow"
+				android:text="Open Albumist Profile"
+				android:textColor="@color/white"
+				app:spinning_bar_color="#FFF"
+				app:spinning_bar_padding="6dp"
+				app:spinning_bar_width="3dp" />
+
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
+
+</layout>
